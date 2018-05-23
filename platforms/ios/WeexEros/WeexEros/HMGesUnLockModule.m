@@ -6,17 +6,16 @@
 //  Copyright © 2018年 benmu. All rights reserved.
 //
 
-#import "HMCustomModule.h"
+#import "HMGesUnLockModule.h"
+#import <WeexPluginLoader/WeexPluginLoader.h>
 #import "HMUnlockView.h"
-#define ROOT_CONTROLLER [[UIApplication sharedApplication] delegate].window.rootViewController
-
-@implementation HMCustomModule
+WX_PlUGIN_EXPORT_MODULE(hmGesUnlock, HMGesUnLockModule)
+@implementation HMGesUnLockModule
 @synthesize weexInstance;
 WX_EXPORT_METHOD(@selector(addGesturePage:))
 WX_EXPORT_METHOD(@selector(checkGesturePage:))
 
 -(void)addGesturePage:(WXModuleCallback)callback{
-//    [ROOT_CONTROLLER.view endEditing:YES];
     [HMUnlockView showUnlockViewWithType:YWUnlockViewCreate callBack:^(BOOL result) {
         if(callback){
             if(result){

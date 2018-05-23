@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import <WeexSDK/WeexSDK.h>
-#import "HMCustomModule.h"
 @interface AppDelegate ()
 
 @end
@@ -18,14 +17,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     BOOL result = [super application:application didFinishLaunchingWithOptions:launchOptions];
-    [self registerCustomModule];
     //do something
     
     return result;
 }
 
 
--(void) registerCustomModule{
-    [WXSDKEngine registerModule:@"hmModule" withClass:[HMCustomModule class]];
-}
 @end

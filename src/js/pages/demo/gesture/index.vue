@@ -19,7 +19,7 @@
 
 <script>
     import {WxcButton } from 'weex-ui'
-    let hmModule = weex.requireModule('hmModule');
+    const hmGesUnlock = weex.requireModule('hmGesUnlock');
     export default {
         components: {WxcButton},
         created() {
@@ -31,7 +31,7 @@
         methods: {
             addGesture(){
                 let that = this
-                hmModule.addGesturePage(function (flag) {
+                hmGesUnlock.addGesturePage(function (flag) {
                     that.$notice.toast({
                         message: flag
                     });
@@ -39,7 +39,7 @@
             },
             checkGesture(){
                 let that = this
-                hmModule.checkGesturePage(function (flag) {
+                hmGesUnlock.checkGesturePage(function (flag) {
                     that.$notice.toast({
                         message: flag
                     });

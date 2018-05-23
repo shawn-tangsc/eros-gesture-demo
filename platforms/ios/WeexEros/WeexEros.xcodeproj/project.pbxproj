@@ -11,7 +11,7 @@
 		100ED80A20B5148300B79944 /* HMGesturesUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 100ED80320B5148300B79944 /* HMGesturesUnlockView.m */; };
 		100ED80B20B5148300B79944 /* HMUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 100ED80420B5148300B79944 /* HMUnlockView.m */; };
 		100ED80C20B5148300B79944 /* HMUnlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 100ED80820B5148300B79944 /* HMUnlockView.xib */; };
-		100ED80F20B514A300B79944 /* HMCustomModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 100ED80D20B514A300B79944 /* HMCustomModule.m */; };
+		100ED80F20B514A300B79944 /* HMGesUnLockModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 100ED80D20B514A300B79944 /* HMGesUnLockModule.m */; };
 		100ED81120B514FA00B79944 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100ED81020B514FA00B79944 /* Image.xcassets */; };
 		9737F9ED1F384AFD00000800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EC1F384AFD00000800 /* main.m */; };
 		9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EF1F384AFD00000800 /* AppDelegate.m */; };
@@ -32,8 +32,8 @@
 		100ED80620B5148300B79944 /* HMUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUnlockView.h; sourceTree = "<group>"; };
 		100ED80720B5148300B79944 /* HMUnlockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUnlockPreviewView.h; sourceTree = "<group>"; };
 		100ED80820B5148300B79944 /* HMUnlockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMUnlockView.xib; sourceTree = "<group>"; };
-		100ED80D20B514A300B79944 /* HMCustomModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCustomModule.m; sourceTree = "<group>"; };
-		100ED80E20B514A300B79944 /* HMCustomModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCustomModule.h; sourceTree = "<group>"; };
+		100ED80D20B514A300B79944 /* HMGesUnLockModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGesUnLockModule.m; sourceTree = "<group>"; };
+		100ED80E20B514A300B79944 /* HMGesUnLockModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGesUnLockModule.h; sourceTree = "<group>"; };
 		100ED81020B514FA00B79944 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		3888DBE3AC1CB69EA6A6124E /* Pods-WeexEros.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexEros.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexEros/Pods-WeexEros.release.xcconfig"; sourceTree = "<group>"; };
 		5CEF84707EB054DDBAA36BA2 /* Pods-WeexEros.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexEros.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexEros/Pods-WeexEros.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				100ED81020B514FA00B79944 /* Image.xcassets */,
-				100ED80E20B514A300B79944 /* HMCustomModule.h */,
-				100ED80D20B514A300B79944 /* HMCustomModule.m */,
+				100ED80E20B514A300B79944 /* HMGesUnLockModule.h */,
+				100ED80D20B514A300B79944 /* HMGesUnLockModule.m */,
 				97155AC51F444E4200615307 /* WeexEros.entitlements */,
 				9737F9EE1F384AFD00000800 /* AppDelegate.h */,
 				9737F9EF1F384AFD00000800 /* AppDelegate.m */,
@@ -309,7 +309,7 @@
 				100ED80B20B5148300B79944 /* HMUnlockView.m in Sources */,
 				100ED80920B5148300B79944 /* HMUnlockPreviewView.m in Sources */,
 				9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */,
-				100ED80F20B514A300B79944 /* HMCustomModule.m in Sources */,
+				100ED80F20B514A300B79944 /* HMGesUnLockModule.m in Sources */,
 				9737F9ED1F384AFD00000800 /* main.m in Sources */,
 				100ED80A20B5148300B79944 /* HMGesturesUnlockView.m in Sources */,
 			);

@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "WXModuleProtocol.h"
-@interface HMCustomModule : NSObject<WXModuleProtocol>
+@interface HMGesUnLockModule : NSObject<WXModuleProtocol>
 
 @end
