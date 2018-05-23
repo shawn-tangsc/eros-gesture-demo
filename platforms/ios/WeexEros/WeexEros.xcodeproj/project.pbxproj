@@ -88,6 +88,8 @@
 		100ED80020B5145900B79944 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				100ED80E20B514A300B79944 /* HMGesUnLockModule.h */,
+				100ED80D20B514A300B79944 /* HMGesUnLockModule.m */,
 				100ED80120B5146100B79944 /* Gesture Page */,
 			);
 			path = Class;
@@ -129,13 +131,11 @@
 		9737F9EA1F384AFD00000800 /* WeexEros */ = {
 			isa = PBXGroup;
 			children = (
-				100ED81020B514FA00B79944 /* Image.xcassets */,
-				100ED80E20B514A300B79944 /* HMGesUnLockModule.h */,
-				100ED80D20B514A300B79944 /* HMGesUnLockModule.m */,
 				97155AC51F444E4200615307 /* WeexEros.entitlements */,
 				9737F9EE1F384AFD00000800 /* AppDelegate.h */,
 				9737F9EF1F384AFD00000800 /* AppDelegate.m */,
 				9737F9F71F384AFD00000800 /* Assets.xcassets */,
+				100ED81020B514FA00B79944 /* Image.xcassets */,
 				9737F9FC1F384AFD00000800 /* Info.plist */,
 				9737F9EC1F384AFD00000800 /* main.m */,
 				9737F9EB1F384AFD00000800 /* Supporting Files */,
