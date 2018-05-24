@@ -148,6 +148,13 @@
         </receiver>
         <!-- 个推SDK配置结束 -->
 
+        <activity
+            android:name=".activity.GestureLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CreateGestureActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
