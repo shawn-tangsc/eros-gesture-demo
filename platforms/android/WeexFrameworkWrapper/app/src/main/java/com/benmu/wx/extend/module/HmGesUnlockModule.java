@@ -20,8 +20,8 @@ import java.security.PublicKey;
  * com.weex.home.test.extend.module
  */
 
-@WeexModule(name = "hmModule", lazyLoad = true)
-public class HmModule extends WXModule {
+@WeexModule(name = "hmGesUnlock", lazyLoad = true)
+public class HmGesUnlockModule extends WXModule {
     private ACache aCache;
 
 
