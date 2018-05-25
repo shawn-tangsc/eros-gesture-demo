@@ -7,7 +7,7 @@
     "weex"
   ],
   "scripts": {
-    "pack": "node ../eros-cli/bin/eros.js pack --all",
+    "pack": "node ../eros-cli/bin/eros.js pack all",
     "start": "node ../eros-cli/bin/eros.js dev"
   },
   "author": "Zero<a2192466@163.com>",
