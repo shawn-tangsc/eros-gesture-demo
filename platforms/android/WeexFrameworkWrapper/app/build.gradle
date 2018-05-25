@@ -13,7 +13,11 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
         ndk {
             abiFilters "x86"
             abiFilters "armeabi"
@@ -99,8 +103,10 @@ dependencies {
     implementation 'com.github.bmfe:WeexErosFramework:1.0.1'
 
     //eros plugin
-    implementation 'com.github.bmfe:eros-plugin-android-amap:1.0.1'
+//    implementation 'com.github.bmfe:eros-plugin-android-amap:1.0.1'
     implementation 'com.github.bmfe:eros-plugin-android-getui:1.0.1'
     implementation 'com.github.bmfe:eros-plugin-android-wxshare:1.0.1'
     implementation 'com.github.bmfe:eros-plugin-android-wxpay:1.0.4'
+
+    compile project(':unlock')
 }

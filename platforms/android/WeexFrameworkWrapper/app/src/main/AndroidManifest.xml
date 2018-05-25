@@ -149,11 +149,11 @@
         <!-- 个推SDK配置结束 -->
 
         <activity
-            android:name=".activity.GestureLoginActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity.CreateGestureActivity"
-            android:screenOrientation="portrait" />
+            android:name="com.benmu.unlock.activity.CreateGestureActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.benmu.unlock.activity.GestureLoginActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 
